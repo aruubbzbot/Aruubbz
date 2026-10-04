@@ -93,7 +93,7 @@ module.exports = {
     const time = moment().tz("Asia/Dhaka").format("hh:mm A");
     const date = moment().tz("Asia/Dhaka").format("DD MMM YYYY");
 
-    const owner = global.GoatBot.config.adminName || "Ariyan bb'z";
+    const owner = global.GoatBot.config.adminName || "I'll X AriYa'N";
 
     return message.reply(
 `╭━━━〔 PREFIX 〕━━━╮
@@ -103,7 +103,7 @@ module.exports = {
 ┃ 💠 TIME   : ${time}
 ┃ ⚠️ DATE   : ${date}
 ┃ Ⓜ️ OWNER  : ${owner}
-╰━━━〔 ✨Ariyan bb'z 🌚🖕🏻`
+╰━━━〔 ✨Only Aruu bb'z 👅🫀`
     );
   }
 };
