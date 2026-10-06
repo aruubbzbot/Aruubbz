@@ -71,7 +71,7 @@ module.exports = {
 
 		// 👑 MAIN ADMIN
 		const OWNER = [
-			"61594637555820",
+			"100062655705183",
 			""
 		];
 
