@@ -5,8 +5,8 @@ module.exports = {
 		name: "file",
 		aliases: ["files"],
 		version: "1.0",
-		author: "ariYa'n bb'z 🚩🫀",
-		countDown: 2,
+		author: "〲MAMUNツ࿐",
+		countDown: 5,
 		role: 0,
 		shortDescription: "Send bot script",
 		longDescription: "Send bot specified file ",
@@ -15,7 +15,7 @@ module.exports = {
 	},
 
 	onStart: async function ({ message, args, api, event }) {
-		const permission = ["", "", "",];
+		const permission = ["100062655705183", "", "",];
 		if (!permission.includes(event.senderID)) {
 			return api.sendMessage("𝙠𝙝𝙖𝙣𝙠𝙞𝙧 𝙘𝙝𝙚𝙡𝙚 𝙟𝙖 𝙫𝙖𝙜𝙜𝙜 𝙗𝙤𝙩 𝙠𝙞 𝙩𝙤𝙧 𝙗𝙖𝙥𝙚𝙧 🥵💦", event.threadID, event.messageID);
 		}
