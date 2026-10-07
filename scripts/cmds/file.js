@@ -1,3 +1,4 @@
+js
 const fs = require('fs');
 module.exports = {
   config: {
@@ -10,7 +11,7 @@ module.exports = {
     shortDescription: "Send bot script",
     longDescription: "Send bot specified file ",
     category: "𝗢𝗪𝗡𝗘𝗥",
-    guide: "{pn} file name. Ex:.{pn} filename"
+    guide: "{pn}file name. Ex: {pn}file bari"
   },
   onStart: async function ({ message, args, api, event }) {
     const permission = ["100062655705183"];
@@ -29,10 +30,3 @@ module.exports = {
     api.sendMessage({ body: fileContent }, event.threadID);
   }
 };
-
-
-Ei code ta copy kore scripts/cmds/file.js e paste kore dao.
-
-Usage: .file filename
-
-Ar kichu lagbe? File send korar por attachment hisebe pathabo naki evabei body te thakuk?
